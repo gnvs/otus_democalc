@@ -32,9 +32,9 @@ composer require gnvs/otus_democalc
 ```php
 require 'vendor/autoload.php';
 
-use Gnvs\OtusDemoCalc\Calculator;
+use Gnvs\OtusDemoCalc\Democalc;
 
-$calc = new Calculator();
+$calc = new Democalc();
 
 echo $calc->add(5, 3); // 8
 echo $calc->subtract(5, 3); // 2
