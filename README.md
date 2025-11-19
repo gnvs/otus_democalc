@@ -11,6 +11,22 @@
 composer require gnvs/otus_democalc
 ```
 
+# Добавить composer.php в директорию проекта
+
+```
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gnvs/otus_democalc"
+        }
+    ],
+    "require": {
+        "gnvs/otus-democalc": "dev-main"
+    }
+}
+```
+
 # Использование
 
 ```php
