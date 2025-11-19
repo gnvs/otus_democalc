@@ -5,13 +5,7 @@
 # Требования
 - PHP.8.3
 
-# Установка 
-
-```sh
-composer require gnvs/otus_democalc
-```
-
-# Добавить composer.php в директорию проекта
+# Composer.php в директории проекта
 
 ```
 {
@@ -25,6 +19,12 @@ composer require gnvs/otus_democalc
         "gnvs/otus-democalc": "dev-main"
     }
 }
+```
+
+# Установка 
+
+```sh
+composer require gnvs/otus_democalc
 ```
 
 # Использование
