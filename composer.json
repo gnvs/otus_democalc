@@ -1,0 +1,13 @@
+{
+    "name": "gnvs/otus-democalc",
+    "description": "Minimal calculator package for OTUS",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gnvs\\OtusDemoCalc\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}

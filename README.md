@@ -14,5 +14,12 @@ composer require gnvs/otus_democalc
 # Использование
 
 ```php
-echo $processor->getLength('my string');
+require 'vendor/autoload.php';
+
+use Gnvs\OtusDemoCalc\Calculator;
+
+$calc = new Calculator();
+
+echo $calc->add(5, 3); // 8
+echo $calc->subtract(5, 3); // 2
 ```
